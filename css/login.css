@@ -1,0 +1,58 @@
+
+main{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 100%;
+    height: auto;
+}
+
+.back-login{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#05406080;
+    width: 50%;
+    padding: 20px;
+    border-radius: 40px;
+    height: 100%;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+#input-nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+}
+
+
+#input-senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}

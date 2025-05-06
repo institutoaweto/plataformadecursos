@@ -1,0 +1,138 @@
+@media (max-width:700px) {
+    nav,#btn-login{
+        display: none;
+    }
+    header{
+        position: fixed;
+        z-index: 4;
+    }
+
+    #btn-loginmob{
+        display: flex;
+        font-size: 35px;
+        color: white;
+    }
+
+    .back-menumob{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    /*//////////// SISTEMA DE MENU*/
+
+    #click-menu{
+        color: white;
+        font-size: 38px;
+    }
+
+    .back-quadromenu{
+        display: none;
+        flex-wrap: wrap;
+        position: fixed;
+        z-index: 4;
+        background-color: #031620;
+        width: 100%;
+        padding: 5px;
+        font-size: 20px;
+        overflow-y: visible;
+        margin-left: 1800px;
+
+    }
+    .ativar-quadromenu{
+        display: flex;
+        animation: menuativar 1s ease-in-out;
+        animation-fill-mode:both;
+        transition: 1s ease-in-out;
+    }
+
+    @keyframes menuativar {
+        100%{
+            margin-left: 0px;
+        }
+        
+    }
+
+    .rolagem-quadromenu{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .back-part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #031620;
+        width: 100%;
+    }
+
+    #logo-quadromenu{
+        padding: 10px;
+        height: 40px;
+    }
+
+    #close-quadromenu{
+        padding: 10px;
+        font-size:38px;
+        color: white;
+    }
+
+    .back-parttwo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #031620;
+        width: 100%;
+        height: 58%;
+        padding: 10px;
+        border-top: 8px solid #161616;
+    }
+
+    #titulomenu-redes{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #031620;
+        border: 4px solid #35b6ae;
+        color: white;
+        transition: 2s;
+    }
+    #titulomenu-contato{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: #031620;
+        border: 4px solid #35b6ae;
+        color: white;
+        transition: 2s;
+    }
+    #titulomenu-redes:hover{
+        background-color: #35b6ae;
+        color: white;
+    }
+    #titulomenu-contato:hover{
+        background-color: #35b6ae;
+        color: white;
+    }
+
+    #redesmob-falcon{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        color: white;
+        border-bottom: 2px solid white;
+        width: 100%;
+    }
+    
+    #redesmob-falcon:active{
+        color: #35b6ae;
+    }
+
+
+
+
+}

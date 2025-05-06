@@ -1,0 +1,677 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#titulo-textsectioncursomobile{
+    display: none;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    background-color: #031620;
+    margin-top: 90px;
+}
+
+
+
+/*//////////// SISTEMA DE SLIDE DE SECTION*/
+.back-sectioncurso{
+    display: none;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-color: #031620;
+}
+
+.mySlides{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*--- TEXTO PRINCIPAL ---*/
+.back-textsectioncurso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: none;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #031620;
+ 
+}
+#text-textsectioncurso{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    font-size: 23px;
+    word-spacing: 8px;
+    margin-top: 0px;
+    transform: translateY(30px);
+    color: #35b6ae;
+    font-weight: bold;
+    animation: corsubtitulo 2s both ease-in-out;
+    opacity: 10;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#titulo-textsectioncurso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 125px;
+    margin-top: 0px;
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#btn-vercurso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #031620;
+    margin-top: -100px;
+    padding: 10px;
+    font-size: 22px;
+    z-index: 3;
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#btn-vercurso:hover{
+    background-color: #037d97;
+}
+
+/*//////////// SISTEMA MAIN DE BOAS VINDAS*/
+
+.back-bemvindoum{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    padding: 0px;
+}
+#text-bemvindo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #35b6ae;
+    color: white;
+    opacity: 0;
+    animation: corsubtitulobemvindo 2s both ease;
+
+}
+#text-frasebemvindo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    font-size: 25px;
+    margin-top: -15px;
+    padding: 10px;
+
+}
+
+.back-sectionbemvindo{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+}
+
+.fundo-backbemvindo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width: 360px ;
+    height: 150px;
+    z-index: 2;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.fundo-backbemvindo:hover{
+    background-color: #053e47;
+    border-radius: 0px;
+}
+
+#backbemvindo-titulo,#backbemvindo-text{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#icon-backbemvindotitulo{
+    font-size: 26px;
+}
+
+#backbemvindo-titulo{
+    font-size: 22px;
+    font-weight: bold;
+    color: #35b6ae;
+}
+
+#backbemvindo-textbemvindo{
+    font-size: 20px;
+}
+
+
+/*--- ANIMAÇÃO TELA DE BOAS VINDAS ---*/
+#icon-csscurso1bemvindo{
+    font-size: 65px;
+    transform: translateY(-220px) rotate(30deg);
+    opacity: 10;
+    animation: opacidadeicon 2s both ease-in-out;
+    transition: 2s;
+}
+
+#icon-csscurso2bemvindo{
+    color: #35b6ae;
+    font-size: 65px;
+    transform: translateY(70px) translateX(-110px) rotate(-30deg);
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#icon-csscurso3bemvindo{
+    color: #35b6ae;
+    font-size: 65px;
+    transform: translateY(70px) translateX(110px) rotate(30deg);
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#icon-csscurso4bemvindo{
+    font-size: 65px;
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+    transform: translateY(-210px) translateX(52px) rotate(-30deg);
+}
+#icon-csssubicon1bemvindo{
+    font-size: 25px;
+    color: #037d97;
+    animation: opacidadeicon 2s both ease-in-out;
+    transform: translateY(-165px) translateX(115px) rotate(30deg);   
+    opacity: 10; 
+}
+#icon-csssubicon2bemvindo{
+    font-size: 25px;
+    color: #037d97;
+    transform: translateY(-165px) translateX(-115px) rotate(-28deg);  
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;  
+}
+
+/*--- ANIMAÇÃO DE ICONES ---*/
+@keyframes opacidadeicon {
+
+    100%{
+        opacity: 10;
+    }
+}
+
+@keyframes corsubtitulobemvindo {
+    50%{
+        background-color: #053e47;
+    }
+    100%{
+        opacity: 10;
+        color: white;
+        background-color: #037d97;
+    }
+}
+
+
+.bolha-direction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    position: absolute;
+    overflow-x: hidden;
+    transform: translateY(570px);
+}
+.fundo-bolha{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+}
+
+
+/*//////////// SISTEMA DE ANIMAÇÃO DE ICONES*/
+.back-animaiconecurso{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 95%;
+    height: 600px;
+    position: absolute;
+}
+
+#icon-csscurso1{
+    font-size: 65px;
+    transform: translateY(-120px) rotate(30deg);
+    opacity: 10;
+    animation: opacidadeicon 2s both ease-in-out;
+}
+#icon-csscurso2{
+    color: #35b6ae;
+    font-size: 65px;
+    transform: translateY(90px) translateX(-110px) rotate(-30deg);
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#icon-csscurso3{
+    color: #35b6ae;
+    font-size: 65px;
+    transform: translateY(90px) translateX(110px) rotate(30deg);
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+}
+#icon-csscurso4{
+    font-size: 65px;
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;
+    transform: translateY(-130px) translateX(52px) rotate(-30deg);
+}
+#icon-csssubicon1{
+    font-size: 45px;
+    color: #037d97;
+    transform: translateY(-175px) translateX(115px) rotate(30deg);   
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10; 
+}
+#icon-csssubicon2{
+    font-size: 45px;
+    color: #037d97;
+    transform: translateY(-175px) translateX(-115px) rotate(-28deg);  
+    animation: opacidadeicon 2s both ease-in-out;
+    opacity: 10;  
+}
+
+/*--- ANIMAÇÃO DE ICONES ---*/
+@keyframes opacidadeicon {
+    50%{
+        opacity: 0;
+        transform: scale(1.3);
+    }
+    100%{
+        transform: 1.0;
+    }
+}
+
+@keyframes corsubtitulo {
+    50%{
+        color: #053e47;
+        opacity: 0;
+    }
+    100%{
+        opacity: 10;
+        color: #037d97;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*//////////// SISTEMA CARROSSEL DE PRODUTOS*/
+.back-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.back-aulas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    border-bottom:2px solid #337A9A;
+}
+
+#titulo-aulas{
+    padding-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*//////////// BOTÃO CARROSSEL DE PRODUTOS UM*/
+
+.rolagem-video{
+    display: flex;
+    width: 100%;
+}
+
+#back-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    font-size: 30px;
+    color: white;
+    animation: frenteum 2s;
+}
+
+#btn-esquerdo,#btn-direito{
+    cursor: pointer;
+}
+
+#btn-esquerdo{
+    display: none;
+    animation: seta 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes seta {
+    50%{
+        transform: scale(1.5) rotate(180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-esquerdo:hover{
+    color: white;
+}
+
+#btn-direito{
+    display: flex;
+    animation: setadenovo 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes setadenovo {
+    50%{
+        transform: scale(1.5) rotate(-180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-direito:hover{
+    color: #037d97;
+}
+
+
+/*//////////// BOTÃO CARROSSEL DE PRODUTOS DOIS*/
+.rolagem-videodois{
+    display: flex;
+    width: 100%;
+
+}
+
+#back-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    font-size: 30px;
+    color: white;
+    animation: frenteum 2s;
+
+}
+
+#btn-esquerdodois,#btn-direitodois{
+    cursor: pointer;
+}
+
+#btn-esquerdodois{
+    display: none;
+    animation: seta 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes seta {
+    50%{
+        transform: scale(1.5) rotate(180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-esquerdodois:hover{
+    color: white;
+}
+
+#btn-direitodois{
+    display: flex;
+    animation: setadenovo 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes setadenovo {
+    50%{
+        transform: scale(1.5) rotate(-180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-direitodois:hover{
+    color: #037d97;
+}
+
+
+/*//////////// BOTÃO CARROSSEL DE PRODUTOS TRÊS*/
+.rolagem-videotres{
+    display: flex;
+    width: 100%;
+
+}
+
+#back-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    font-size: 30px;
+    color: white;
+    animation: frenteum 2s;
+}
+
+#btn-esquerdotres,#btn-direitotres{
+    cursor: pointer;
+}
+
+#btn-esquerdotres{
+    display: none;
+    animation: seta 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes seta {
+    50%{
+        transform: scale(1.5) rotate(180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-esquerdotres:hover{
+    color: white;
+}
+
+#btn-direitotres{
+    display: flex;
+    animation: setadenovo 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes setadenovo {
+    50%{
+        transform: scale(1.5) rotate(-180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-direitotres:hover{
+    color: #037d97;
+}
+
+
+
+
+/*//////////// BOTÃO CARROSSEL DE PRODUTOS QUATRO*/
+.rolagem-videoquatro{
+    display: flex;
+    width: 200%;
+    justify-content: space-evenly;
+}
+
+#back-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    font-size: 30px;
+    color: white;
+    animation: frenteum 2s;
+}
+
+#btn-esquerdoquatro,#btn-direitoquatro{
+    cursor: pointer;
+}
+
+#btn-esquerdoquatro{
+    display: none;
+    animation: seta 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes seta {
+    50%{
+        transform: scale(1.5) rotate(180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-esquerdoquatro:hover{
+    color: white;
+}
+
+#btn-direitoquatro{
+    display: flex;
+    animation: setadenovo 2s ease-in-out;
+    animation-fill-mode:both;
+}
+
+@keyframes setadenovo {
+    50%{
+        transform: scale(1.5) rotate(-180deg);   
+    }
+    100%{
+        transform: scale(1.0);
+        color: #037d97;
+    }
+}
+
+#btn-direitoquatro:hover{
+    color: #037d97;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*//////////// ESTILIZAÇÃO DO CARROSSEL DE PRODUTOS*/
+.back-videos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    overflow-x:hidden;
+    width: 100%;
+    height:200px;
+}
+
+
+
+.animaçao-rolagem{
+    display: flex;
+    animation: frenteum 2s ease-in-out;
+    animation-fill-mode:both;
+    
+}
+
+@keyframes frenteum {
+    100%{
+        margin-left: -3500px;
+    }
+}
+
+#dados-imgvideo{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    border: 2px solid #1f1f1f;
+    border-radius: 5px;
+    transition: 2s;
+
+}
+
+#dados-imgvideo:hover{
+    border:6px solid #037d97;
+    transform: scale(1.05);
+}
+
+
+
+
